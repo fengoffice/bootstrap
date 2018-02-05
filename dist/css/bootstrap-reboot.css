@@ -5,13 +5,13 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
-*,
-*::before,
-*::after {
+.feng-bootstrap *,
+.feng-bootstrap *::before,
+.feng-bootstrap *::after {
   box-sizing: border-box;
 }
 
-html {
+.feng-bootstrap html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -24,11 +24,11 @@ html {
   width: device-width;
 }
 
-article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+.feng-bootstrap article, .feng-bootstrap aside, .feng-bootstrap dialog, .feng-bootstrap figcaption, .feng-bootstrap figure, .feng-bootstrap footer, .feng-bootstrap header, .feng-bootstrap hgroup, .feng-bootstrap main, .feng-bootstrap nav, .feng-bootstrap section {
   display: block;
 }
 
-body {
+.feng-bootstrap body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
@@ -39,28 +39,28 @@ body {
   background-color: #fff;
 }
 
-[tabindex="-1"]:focus {
+.feng-bootstrap [tabindex="-1"]:focus {
   outline: 0 !important;
 }
 
-hr {
+.feng-bootstrap hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.feng-bootstrap h1, .feng-bootstrap h2, .feng-bootstrap h3, .feng-bootstrap h4, .feng-bootstrap h5, .feng-bootstrap h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
 
-p {
+.feng-bootstrap p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-abbr[title],
-abbr[data-original-title] {
+.feng-bootstrap abbr[title],
+.feng-bootstrap abbr[data-original-title] {
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
@@ -68,127 +68,127 @@ abbr[data-original-title] {
   border-bottom: 0;
 }
 
-address {
+.feng-bootstrap address {
   margin-bottom: 1rem;
   font-style: normal;
   line-height: inherit;
 }
 
-ol,
-ul,
-dl {
+.feng-bootstrap ol,
+.feng-bootstrap ul,
+.feng-bootstrap dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-ol ol,
-ul ul,
-ol ul,
-ul ol {
+.feng-bootstrap ol ol,
+.feng-bootstrap ul ul,
+.feng-bootstrap ol ul,
+.feng-bootstrap ul ol {
   margin-bottom: 0;
 }
 
-dt {
+.feng-bootstrap dt {
   font-weight: 700;
 }
 
-dd {
+.feng-bootstrap dd {
   margin-bottom: .5rem;
   margin-left: 0;
 }
 
-blockquote {
+.feng-bootstrap blockquote {
   margin: 0 0 1rem;
 }
 
-dfn {
+.feng-bootstrap dfn {
   font-style: italic;
 }
 
-b,
-strong {
+.feng-bootstrap b,
+.feng-bootstrap strong {
   font-weight: bolder;
 }
 
-small {
+.feng-bootstrap small {
   font-size: 80%;
 }
 
-sub,
-sup {
+.feng-bootstrap sub,
+.feng-bootstrap sup {
   position: relative;
   font-size: 75%;
   line-height: 0;
   vertical-align: baseline;
 }
 
-sub {
+.feng-bootstrap sub {
   bottom: -.25em;
 }
 
-sup {
+.feng-bootstrap sup {
   top: -.5em;
 }
 
-a {
+.feng-bootstrap a {
   color: #007bff;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
-a:hover {
+.feng-bootstrap a:hover {
   color: #0056b3;
   text-decoration: underline;
 }
 
-a:not([href]):not([tabindex]) {
+.feng-bootstrap a:not([href]):not([tabindex]) {
   color: inherit;
   text-decoration: none;
 }
 
-a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+.feng-bootstrap a:not([href]):not([tabindex]):hover, .feng-bootstrap a:not([href]):not([tabindex]):focus {
   color: inherit;
   text-decoration: none;
 }
 
-a:not([href]):not([tabindex]):focus {
+.feng-bootstrap a:not([href]):not([tabindex]):focus {
   outline: 0;
 }
 
-pre,
-code,
-kbd,
-samp {
+.feng-bootstrap pre,
+.feng-bootstrap code,
+.feng-bootstrap kbd,
+.feng-bootstrap samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
 
-pre {
+.feng-bootstrap pre {
   margin-top: 0;
   margin-bottom: 1rem;
   overflow: auto;
   -ms-overflow-style: scrollbar;
 }
 
-figure {
+.feng-bootstrap figure {
   margin: 0 0 1rem;
 }
 
-img {
+.feng-bootstrap img {
   vertical-align: middle;
   border-style: none;
 }
 
-svg:not(:root) {
+.feng-bootstrap svg:not(:root) {
   overflow: hidden;
 }
 
-table {
+.feng-bootstrap table {
   border-collapse: collapse;
 }
 
-caption {
+.feng-bootstrap caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   color: #6c757d;
@@ -196,86 +196,86 @@ caption {
   caption-side: bottom;
 }
 
-th {
+.feng-bootstrap th {
   text-align: inherit;
 }
 
-label {
+.feng-bootstrap label {
   display: inline-block;
   margin-bottom: .5rem;
 }
 
-button {
+.feng-bootstrap button {
   border-radius: 0;
 }
 
-button:focus {
+.feng-bootstrap button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
 }
 
-input,
-button,
-select,
-optgroup,
-textarea {
+.feng-bootstrap input,
+.feng-bootstrap button,
+.feng-bootstrap select,
+.feng-bootstrap optgroup,
+.feng-bootstrap textarea {
   margin: 0;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
 
-button,
-input {
+.feng-bootstrap button,
+.feng-bootstrap input {
   overflow: visible;
 }
 
-button,
-select {
+.feng-bootstrap button,
+.feng-bootstrap select {
   text-transform: none;
 }
 
-button,
-html [type="button"],
-[type="reset"],
-[type="submit"] {
+.feng-bootstrap button,
+.feng-bootstrap html [type="button"],
+.feng-bootstrap [type="reset"],
+.feng-bootstrap [type="submit"] {
   -webkit-appearance: button;
 }
 
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+.feng-bootstrap button::-moz-focus-inner,
+.feng-bootstrap [type="button"]::-moz-focus-inner,
+.feng-bootstrap [type="reset"]::-moz-focus-inner,
+.feng-bootstrap [type="submit"]::-moz-focus-inner {
   padding: 0;
   border-style: none;
 }
 
-input[type="radio"],
-input[type="checkbox"] {
+.feng-bootstrap input[type="radio"],
+.feng-bootstrap input[type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-input[type="date"],
-input[type="time"],
-input[type="datetime-local"],
-input[type="month"] {
+.feng-bootstrap input[type="date"],
+.feng-bootstrap input[type="time"],
+.feng-bootstrap input[type="datetime-local"],
+.feng-bootstrap input[type="month"] {
   -webkit-appearance: listbox;
 }
 
-textarea {
+.feng-bootstrap textarea {
   overflow: auto;
   resize: vertical;
 }
 
-fieldset {
+.feng-bootstrap fieldset {
   min-width: 0;
   padding: 0;
   margin: 0;
   border: 0;
 }
 
-legend {
+.feng-bootstrap legend {
   display: block;
   width: 100%;
   max-width: 100%;
@@ -287,44 +287,44 @@ legend {
   white-space: normal;
 }
 
-progress {
+.feng-bootstrap progress {
   vertical-align: baseline;
 }
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+.feng-bootstrap [type="number"]::-webkit-inner-spin-button,
+.feng-bootstrap [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-[type="search"] {
+.feng-bootstrap [type="search"] {
   outline-offset: -2px;
   -webkit-appearance: none;
 }
 
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
+.feng-bootstrap [type="search"]::-webkit-search-cancel-button,
+.feng-bootstrap [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-::-webkit-file-upload-button {
+.feng-bootstrap ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button;
 }
 
-output {
+.feng-bootstrap output {
   display: inline-block;
 }
 
-summary {
+.feng-bootstrap summary {
   display: list-item;
   cursor: pointer;
 }
 
-template {
+.feng-bootstrap template {
   display: none;
 }
 
-[hidden] {
+.feng-bootstrap [hidden] {
   display: none !important;
 }
 /*# sourceMappingURL=bootstrap-reboot.css.map */
